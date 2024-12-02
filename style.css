@@ -1,5 +1,9 @@
 /* Selectores de elemento */
 
+    *{
+        box-sizing: border-box;
+    }
+
     body {
         font-family: Arial, Verdana, sans-serif;
         color: #1A2C4E;
@@ -155,7 +159,8 @@
     }
 
     .final-btn{
-        width: 95%;
+        margin: 0%;
+        width: 100%;
         float: inherit;
         border-top: 10px;
     }
